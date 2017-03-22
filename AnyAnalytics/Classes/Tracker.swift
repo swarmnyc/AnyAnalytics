@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Analytics
 
 
 public protocol Tracker {

@@ -1,7 +1,5 @@
 PODS:
-  - Analytics (3.6.0)
-  - AnyAnalytics (0.1.0):
-    - Analytics
+  - AnyAnalytics (0.1.0)
 
 DEPENDENCIES:
   - AnyAnalytics (from `../`)
@@ -11,9 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Analytics: 15be3e651d22cc811f44df65698538236676437b
-  AnyAnalytics: a298a0f8f3d2cd2b3baa8af308ff8fb52114daee
+  AnyAnalytics: 6582b9c3e4b25608f59cd8b1d92210255fb2adde
 
-PODFILE CHECKSUM: 8dbb78702b5d38a7d7ea543aab00505d14a8c3bd
+PODFILE CHECKSUM: e1983fd7d36e992aed6402f211827f3c56209026
 
 COCOAPODS: 1.1.1

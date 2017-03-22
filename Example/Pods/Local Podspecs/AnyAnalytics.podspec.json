@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AnyAnalytics/Classes/**/*",
-  "dependencies": {
-    "Analytics": [
-
-    ]
-  }
+  "source_files": "AnyAnalytics/Classes/**/*"
 }
