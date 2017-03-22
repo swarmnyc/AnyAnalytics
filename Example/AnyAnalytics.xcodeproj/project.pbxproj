@@ -17,18 +17,8 @@
 		C363E08EB5EB6FE3D0BB170C /* Pods_AnyAnalytics_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510E2509781BF8532DF8F23 /* Pods_AnyAnalytics_Example.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = AnyAnalytics;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		14EF1B3115F141351A16CAE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		14EF1B3115F141351A16CAE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2EB9D31085DEC1796D9377E4 /* Pods-AnyAnalytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyAnalytics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnyAnalytics_Tests/Pods-AnyAnalytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DBD2C7418CCA26C977B39DF /* Pods_AnyAnalytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyAnalytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AnyAnalytics_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyAnalytics_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +31,10 @@
 		607FACE51AFB9204008FA782 /* AnyAnalytics_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyAnalytics_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		812EDAD8C942DCD3A6E54229 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		812EDAD8C942DCD3A6E54229 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8EF211F01CE607FA394D9575 /* Pods-AnyAnalytics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyAnalytics_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnyAnalytics_Example/Pods-AnyAnalytics_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9510E2509781BF8532DF8F23 /* Pods_AnyAnalytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyAnalytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF8BA45184611115C9AA721C /* AnyAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyAnalytics.podspec; path = ../AnyAnalytics.podspec; sourceTree = "<group>"; };
+		BF8BA45184611115C9AA721C /* AnyAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnyAnalytics.podspec; path = ../AnyAnalytics.podspec; sourceTree = "<group>"; };
 		C67D0C2D6C091C4D80898A05 /* Pods-AnyAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyAnalytics_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnyAnalytics_Tests/Pods-AnyAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E4E00B7E41A2DBBB5B96AD52 /* Pods-AnyAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyAnalytics_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnyAnalytics_Example/Pods-AnyAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +186,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
 			name = AnyAnalytics_Tests;
 			productName = Tests;
@@ -215,10 +204,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 49E6AM57U3;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 49E6AM57U3;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -376,14 +368,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* AnyAnalytics_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -496,6 +480,8 @@
 			baseConfigurationReference = E4E00B7E41A2DBBB5B96AD52 /* Pods-AnyAnalytics_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = AnyAnalytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +496,8 @@
 			baseConfigurationReference = 8EF211F01CE607FA394D9575 /* Pods-AnyAnalytics_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = AnyAnalytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EB9D31085DEC1796D9377E4 /* Pods-AnyAnalytics_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 49E6AM57U3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C67D0C2D6C091C4D80898A05 /* Pods-AnyAnalytics_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 49E6AM57U3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

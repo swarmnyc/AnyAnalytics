@@ -1,0 +1,6 @@
+framework module AnyAnalytics {
+  umbrella header "AnyAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
