@@ -1,5 +1,7 @@
 # AnyAnalytics
 
+![build status](https://www.bitrise.io/app/72b7976648b01038.svg?token=3uQY2m8CFLnr1r0413AsdA)
+
 A analytics wrapper inspired by Moya that allows you to easily change the analytics provider you want to use.
 
 ## Example
