@@ -16,12 +16,26 @@ public protocol Tracker {
     func track(_ event: TrackerEvent)
 }
 
+public extension TrackerImplementation {
+    func track(_ event: TrackerEvent) {
+        switch event.type {
+        case .screen:
+            self.trackScreen(event)
+        case .event:
+            self.trackEvent(event)
+        case .timing:
+            self.timeEvent(event)
+        case .custom(let key):
+            self.customTracking(event, key: key)
+        }
+    }
+}
 
 public protocol TrackerSendMethods {
     func trackScreen(_ event: TrackerEvent)
     func trackEvent(_ event: TrackerEvent)
     func timeEvent(_ event: TrackerEvent)
-    func customTracking(_ event: TrackerEvent)
+    func customTracking(_ event: TrackerEvent, key: String)
 }
 
 

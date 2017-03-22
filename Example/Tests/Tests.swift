@@ -75,7 +75,7 @@ class Tests: XCTestCase {
             self.timeEventCallback?(event)
         }
         
-        func customTracking(_ event: TrackerEvent) {
+        func customTracking(_ event: TrackerEvent, key: String) {
             self.customTrackingCallback?(event)
         }
         
